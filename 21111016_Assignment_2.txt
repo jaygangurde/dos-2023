@@ -1,0 +1,21 @@
+Assignment 2 , Devops .
+
+Name : jay keda gangurde 
+Roll no : 21111016 
+
+
+Q.	Write the execution of sample.c to a.out executable binary of c program ?
+
+==>	When we compile sample.c file it will generate some intermediate file these files in the system , that are 
+
+	sample.c -> sample.i  (Preprocessor Code)
+	sample.i -> sample.s  (Assembly Code)
+	sample.s -> sample.o  (Object Code)
+	sample.o -> a.out     (Executable code)
+	
+	basically for compiling sample.c file we use compiler which is in our system , that compiler run all the process , becouse of that 
+      procesess sample.c file genrate a.out file , In preprocessor step it will remove all comments instead of including header file it will 
+      expand it. Also it will expand macros also.
+	In next step the compiler will convert preprocessed code into assembly language , like sample.i to sample.s the complete code will be 
+      in assembly language. Then the same compiler will convert the assembly code in object code , like  sample.s to sample.o , after that all 
+	the processes , Finally in last step our object code will create executable file with linking . thats how sample.c convert the a.out .
